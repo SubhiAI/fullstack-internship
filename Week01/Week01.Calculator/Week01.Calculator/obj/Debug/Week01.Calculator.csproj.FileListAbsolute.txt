@@ -1,0 +1,7 @@
+D:\University\WORK\fullstack-internship\Week01\Week01.Calculator\Week01.Calculator\bin\Debug\Week01.Calculator.exe.config
+D:\University\WORK\fullstack-internship\Week01\Week01.Calculator\Week01.Calculator\bin\Debug\Week01.Calculator.exe
+D:\University\WORK\fullstack-internship\Week01\Week01.Calculator\Week01.Calculator\bin\Debug\Week01.Calculator.pdb
+D:\University\WORK\fullstack-internship\Week01\Week01.Calculator\Week01.Calculator\obj\Debug\Week01.Calculator.csproj.AssemblyReference.cache
+D:\University\WORK\fullstack-internship\Week01\Week01.Calculator\Week01.Calculator\obj\Debug\Week01.Calculator.csproj.CoreCompileInputs.cache
+D:\University\WORK\fullstack-internship\Week01\Week01.Calculator\Week01.Calculator\obj\Debug\Week01.Calculator.exe
+D:\University\WORK\fullstack-internship\Week01\Week01.Calculator\Week01.Calculator\obj\Debug\Week01.Calculator.pdb

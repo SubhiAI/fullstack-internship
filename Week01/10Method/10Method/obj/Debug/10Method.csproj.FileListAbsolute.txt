@@ -1,0 +1,7 @@
+D:\University\WORK\fullstack-internship\Week01\10Method\10Method\bin\Debug\10Method.exe.config
+D:\University\WORK\fullstack-internship\Week01\10Method\10Method\bin\Debug\10Method.exe
+D:\University\WORK\fullstack-internship\Week01\10Method\10Method\bin\Debug\10Method.pdb
+D:\University\WORK\fullstack-internship\Week01\10Method\10Method\obj\Debug\10Method.csproj.AssemblyReference.cache
+D:\University\WORK\fullstack-internship\Week01\10Method\10Method\obj\Debug\10Method.csproj.CoreCompileInputs.cache
+D:\University\WORK\fullstack-internship\Week01\10Method\10Method\obj\Debug\10Method.exe
+D:\University\WORK\fullstack-internship\Week01\10Method\10Method\obj\Debug\10Method.pdb

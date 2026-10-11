@@ -1,0 +1,7 @@
+D:\University\WORK\fullstack-internship\Week01\Week01.StudentGrades\Week01.StudentGrades\bin\Debug\Week01.StudentGrades.exe.config
+D:\University\WORK\fullstack-internship\Week01\Week01.StudentGrades\Week01.StudentGrades\bin\Debug\Week01.StudentGrades.exe
+D:\University\WORK\fullstack-internship\Week01\Week01.StudentGrades\Week01.StudentGrades\bin\Debug\Week01.StudentGrades.pdb
+D:\University\WORK\fullstack-internship\Week01\Week01.StudentGrades\Week01.StudentGrades\obj\Debug\Week01.StudentGrades.csproj.AssemblyReference.cache
+D:\University\WORK\fullstack-internship\Week01\Week01.StudentGrades\Week01.StudentGrades\obj\Debug\Week01.StudentGrades.csproj.CoreCompileInputs.cache
+D:\University\WORK\fullstack-internship\Week01\Week01.StudentGrades\Week01.StudentGrades\obj\Debug\Week01.StudentGrades.exe
+D:\University\WORK\fullstack-internship\Week01\Week01.StudentGrades\Week01.StudentGrades\obj\Debug\Week01.StudentGrades.pdb
