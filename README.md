@@ -42,9 +42,20 @@ LINQ : mean the portal between user and data I save it .
 In Last : I do a program (Student Management):
 I build --> Student.cs : for Student Information.
         --> Services.cs : for many operation (Add Student , View Student , Search of Student , Update Student,
-                                              Delete Student , Calculate Average)
+															Delete Student , Calculate Average)
         --> Program.cs : to merge Student.cs and Services.cs in Main method , and I made other method 
                          to Exception-handling and Validation from any error input like : 
 						input an Id you have add it before,
+
+Week 03 : SQL
+From Another course learnt how database work and how I can create one.
+I learn some queries for MYSQL workbench .
+I do a database with 3 table (Employee , Department , JobPosition)
+Employee:
+I create Columns [Emp_Id , Emp_name , Email , Department_ID , Job_ID ]
+and for Department and JobPosition two column for each of them (ID , name).
+in Last I do a view vw_EmployeeDetails 
+and procedure usp_GetEmployeesByDepartment .
+                                              
                                                 input grade between (0-100),
                                                 and this input are just numbers. 
