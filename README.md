@@ -62,6 +62,7 @@ and procedure usp_GetEmployeesByDepartment .
 
 
 Week 04 : ASP.Net
-From the back week I add My DataBase into a ASP program that take a CRUD for employees .
 
+From the back week I add My DataBase into a ASP program that take a CRUD for employees .
+I used Swagger to try the program and solve solution , and I use PostMan to make API.md.
 												
