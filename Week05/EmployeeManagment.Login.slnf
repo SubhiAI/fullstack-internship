@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "..\\Week04\\EmployeeManagement.API\\EmployeeManagement.API.slnx",
+    "projects": [
+      "EmployeeManagement.API\\EmployeeManagement.API.csproj"
+    ]
+  }
+}
