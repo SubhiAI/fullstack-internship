@@ -1,0 +1,243 @@
+{
+  "info": {
+    "_postman_id": "4b562a3c-34f8-4a21-917f-f75ae2b86188",
+    "name": "Employee Management Login",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "59207814",
+    "_collection_link": "https://go.postman.co/collection/59207814-4b562a3c-34f8-4a21-917f-f75ae2b86188?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "var jsonData = pm.response.json();\nif (jsonData.accessToken) {\n    pm.collectionVariables.set(\"token\", jsonData.accessToken);\n}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"AdminPassword123!\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7037/api/Employees/Login",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7037",
+          "path": [
+            "api",
+            "Employees",
+            "Login"
+          ]
+        },
+        "description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
+      },
+      "response": []
+    },
+    {
+      "name": "Get All",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\n    pm.response.to.have.status(200);\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "token",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7037/api/Employees",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7037",
+          "path": [
+            "api",
+            "Employees"
+          ]
+        },
+        "description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
+      },
+      "response": []
+    },
+    {
+      "name": "GetByID",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "token",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7037/api/Employees/12",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7037",
+          "path": [
+            "api",
+            "Employees",
+            "12"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "AddEmployee",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "token",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Mohammed\",\r\n  \"email\": \"Mohammed2005@gmail.com\",\r\n  \"departmentId\": 1,\r\n  \"jobPositionId\": 1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7037/api/Employees",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7037",
+          "path": [
+            "api",
+            "Employees"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "UpdateData",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "token",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Diana\",\r\n  \"email\": \"Diana2005@gmail.com\",\r\n  \"departmentId\": 2,\r\n  \"jobPositionId\": 1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7037/api/Employees/32",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7037",
+          "path": [
+            "api",
+            "Employees",
+            "32"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "DeleteEmployee",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "token",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7037/api/Employees/33",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7037",
+          "path": [
+            "api",
+            "Employees",
+            "33"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "token",
+      "value": ""
+    }
+  ]
+}
